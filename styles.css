@@ -15,17 +15,17 @@ body {
    TITLES
    ================================ */
 
-.title {
-    font-size: 32px;
+h1 {
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.subtitle {
+h2{
     font-size: 22px;
     font-weight: bold;
     text-decoration: underline;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -34,7 +34,7 @@ body {
    TEXT
    ================================ */
 
-.text {
+p {
     margin-bottom: 18px;
 }
 
@@ -51,7 +51,7 @@ body {
    CITES
    ================================ */
 
-.quote {
+blockquote {
     border-left: 4px solid #888;
     padding: 10px 20px 10px 45px;
     margin: 25px 0;
@@ -59,7 +59,7 @@ body {
     position: relative;
 }
 
-.quote::before {
+blockquote::before {
     content: "❝";
     position: absolute;
     left: 10px;
@@ -73,7 +73,7 @@ body {
    IMAGES
    ================================ */
 
-.image {
+img {
     max-width: 100%;
     height: auto;
     display: block;
