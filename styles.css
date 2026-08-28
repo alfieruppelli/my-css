@@ -102,9 +102,7 @@ blockquote {
 
     margin: 35px 10px;
     padding: 15px 25px 15px 50px;
-
-    border-left: 3px solid #888;
-
+   
     font-style: italic;
     line-height: 1.7;
 }
@@ -155,8 +153,6 @@ figure {
 
     box-shadow:
         0 3px 10px rgba(0, 0, 0, 0.12);
-
-    transform: rotate(-1deg);
 }
 
 
@@ -281,13 +277,4 @@ i {
     figure {
         max-width: 85%;
     }
-}
-
-
-/* ========================================
-   POLAROID ALTERNATING
-   ======================================== */
-
-figure:nth-of-type(even) {
-    transform: rotate(1deg);
 }
