@@ -261,12 +261,12 @@ i {
 }
 
 .signature::before {
-  content: "~¤º°`°º¤ø,¸¸,ø ";
+  content: "~ø,¸¸,ø¤º°`°º¤ ";
   font-size: 2rem;
 }
 
 .signature::after {
-  content: " ø,¸¸,ø¤º°`°º¤~";
+  content: " ¤º°`°º¤ø,¸¸,ø~";
   font-size: 2rem;
 }
 
