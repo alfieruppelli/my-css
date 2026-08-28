@@ -254,6 +254,7 @@ i {
   font-size: 1.8rem;
   font-weight: 500;
   text-align: right;
+  transform: scaleX(0.75);
   margin: 3rem auto 1rem;
   padding-top: 1.5rem;
   opacity: 0.85;
@@ -262,12 +263,12 @@ i {
 
 .signature::before {
   content: "~ø,¸¸,ø¤º°`°º¤ ";
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .signature::after {
   content: " ¤º°`°º¤ø,¸¸,ø~";
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 
