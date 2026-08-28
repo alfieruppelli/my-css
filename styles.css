@@ -260,6 +260,17 @@ i {
   letter-spacing: 0.03em;
 }
 
+.signature::before {
+  content: "~ ";
+  font-size: 2rem;
+}
+
+.signature::after {
+  content: " ~";
+  font-size: 2rem;
+}
+
+
 /* ========================================
    VIEW ON TELEPHONES
    ======================================== */
