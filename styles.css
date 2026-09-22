@@ -26,13 +26,15 @@ body {
    ======================================== */
 
 /*
-   <main> funciona como contenedor general.
+   <main> works as a general container.
 */
 
 main {
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 40px 30px;
+    border-style: groove;
+    border-width: 2.5px;
 }
 
 
@@ -44,7 +46,7 @@ h1 {
     font-size: 2em;       /* 36 px */
     line-height: 1.15;
     font-weight: 700;
-
+    color: #f00;
     margin-bottom: 0.5em;
 }
 
@@ -52,7 +54,7 @@ h2 {
     font-size: 1.55em;    /* 27.9 px */
     line-height: 1.2;
     font-weight: 700;
-
+    color: #f00;
     text-decoration: underline;
     text-underline-offset: 5px;
 
@@ -63,7 +65,7 @@ h3 {
     font-size: 1.25em;    /* 22.5 px */
     line-height: 1.25;
     font-weight: 700;
-
+    color: #f00;
     margin-top: 1.2em;
 }
 
@@ -75,6 +77,9 @@ h3 {
 p {
     font-size: 1em;       /* 18 px */
     line-height: 1.6;
+    text-indent: 2.5em;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 
@@ -100,7 +105,7 @@ a:hover {
 
 blockquote {
     position: relative;
-
+    text-align: justify;
     margin: 35px 10px;
     padding: 15px 25px 15px 50px;
    
@@ -150,7 +155,7 @@ figure {
 
     background: #ffffff;
 
-    border: 1px solid #dddddd;
+    border: 1px solid #ccc;
 
     box-shadow:
         0 3px 10px rgba(0, 0, 0, 0.12);
@@ -181,7 +186,7 @@ figcaption {
 hr {
     border: 0;
 
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #ccc;
 
     margin: 45px 0;
 }
@@ -258,6 +263,7 @@ i {
   font-size: 0.9em;     /* 16.2 px */
   font-weight: 400;
   text-align: right;
+  color: #00f; 
   transform: scaleX(0.75);
   margin-top: 2em;
   opacity: 0.8;
@@ -265,13 +271,13 @@ i {
 }
 
 .signature::before {
-  content: "ø,¸,~º°º¤ ";
+  content: "ø,¸,~°º°¤ ";
   font-size: 0.8em;
 }
 
 .signature::after {
-  content: " ¤º°º~,¸,ø";
-  font-size: 0.8em;
+  content: " ¤°º°~,¸,ø";
+  font-size: 0.8em; 
 }
 
 
